@@ -1,14 +1,14 @@
 version: '3'
 services: 
     test1:
-      image: sreeharshav/rollingupdate:v3
+      image: 8978443990/rollingupdate:v3
       container_name: nginx
       ports: ["8000"]
       networks: 
       - network1
       - network2
     test2:
-       image: sreeharshav/utils
+       image: 8978443990/utils
        container_name: utils
        networks: 
          - network1
